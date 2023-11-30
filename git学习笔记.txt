@@ -2,4 +2,5 @@ git init 初始化一个仓库
 git add 将文件加入暂存区
 git commit -m "说明" 将暂存区的文件提交到本地仓库并加说明
 git status 查看是否有未提交文件
+git diff 文件名 查看文件中修改的内容
 
