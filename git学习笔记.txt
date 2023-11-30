@@ -10,4 +10,5 @@ git reset --hard HEAD^^ 回退2个版本
 git reset --hard HEAD~100 回退到前100个版本
 git relog 在版本回退以后，查看最新版本的版本号
 git reset --hard 版本号 回到最新版本
+git checkout -- 命令 在未提交前，取消修改
 
