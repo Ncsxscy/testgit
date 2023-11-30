@@ -1,13 +1,14 @@
-git init 初始化一个仓库
-git add 将文件加入暂存区
-git commit -m "说明" 将暂存区的文件提交到本地仓库并加说明
-git status 查看是否有未提交文件
-git diff 文件名 查看文件中修改的内容
-git log 查看历史版本
-git log --pretty=online 只显示版本号和说明
-git reset --hard HEAD^ 回退1个版本
-git reset --hard HEAD^^ 回退2个版本
-git reset --hard HEAD~100 回退到前100个版本
-git relog 在版本回退以后，查看最新版本的版本号
-git reset --hard 版本号 回到最新版本
-git checkout -- 命令 在未提交前，取消修改 若是还没放到暂存区，会回到版本库中一样的状态，若是已经放到暂存区，又进行了修改，则会回到添加到暂存区后的状态。
+git init			初始化一个仓库
+git add 文件名			将文件加入暂存区
+git commit -m "说明" 文件名 		将暂存区的文件提交到本地仓库并加说明
+git status 			查看是否有未提交文件
+git diff 文件名 		查看文件中修改的内容
+git log 			查看历史版本
+git log --pretty=online 	只显示版本号和说明
+git reset --hard HEAD^ 		回退1个版本
+git reset --hard HEAD^^ 	回退2个版本
+git reset --hard HEAD~100 	回退到前100个版本
+git relog 			在版本回退以后，查看最新版本的版本号
+git reset --hard 版本号 	回到最新版本
+git checkout -- 命令 		在未提交前，取消修改 若是还没放到暂存区，会回到版本库中一样的状态，若是已经放到暂存区，又进行了修改，则会回到添加到暂存区后的状态。
+rm 文件 删除目录下的文件，配合commit命令可以删除掉库里的相应文件。
