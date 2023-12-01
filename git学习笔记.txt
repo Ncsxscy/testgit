@@ -16,4 +16,5 @@ git remote add origin 远程库网址 用来将远程库和本地仓库连接起
 git push -u origin master 将本地库中的内容推送到远程库中，因为是第一次所以加了-u
 git push origin master	将本地库中的分支推送到远程库中
 git clone 网址 从远程仓库中克隆
-
+git checkout -b 分支名 创建并切换分支，相当于git branch 分支名 + git checkout 分支名
+git branch 查看所有分支名，当前分支名会有星号显示
